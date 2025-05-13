@@ -1,0 +1,45 @@
+<nav>
+    <a href="admin_index.php" style="text-decoration: none; color: black;">
+        <h1>Smash The Hunger</h1>
+    </a>
+    <ul>
+        <a href="admin_index.php">
+            <li>Home</li>
+        </a>
+        <!-- Dropdown Menu -->
+        <li class="dropdown">
+            <a href="#" class="dropdown-btn">Donations</a>
+            <ul class="dropdown-menu" style="padding: 0px 0;">
+                <a style="font-size: 16px;padding: 0px 5px;" href="admin_activedonation.php">
+                    <li>Active Donations</li>
+                </a>
+                <a style="font-size: 16px;padding: 0px 5px;" href="alldonations.php">
+                    <li>All Donations</li>
+                </a>
+            </ul>
+        </li>
+        <!-- Dropdown Menu -->
+        <li class="dropdown">
+            <a href="#" class="dropdown-btn">More</a>
+            <ul class="dropdown-menu" style="padding: 0px 0;">
+                <a style="font-size: 16px;padding: 0px 5px;" href="allreciver.php">
+                    <li>View Recivers</li>
+                </a>
+                <a style="font-size: 16px;padding: 0px 5px;" href="alldonors.php">
+                    <li>view Donors</li>
+                </a>
+                <a style="font-size: 16px;padding: 0px 5px;" href="alladmins.php">
+                    <li>view Admins</li>
+                </a>
+                <a style="font-size: 16px;padding: 0px 5px;" href="admin_reg.php">
+                    <li>Register Admin</li>
+                </a>
+            </ul>
+        </li>
+        
+        <a href="complaints.php">
+            <li>Complaints</li>
+        </a>
+    </ul>
+    <form action="logout.php" method="POST"><button name="logout"type="submit">log out</button></form>
+</nav>

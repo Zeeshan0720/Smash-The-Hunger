@@ -1,0 +1,145 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h1{
+    margin-left: 150px;
+    margin-top: 25px;
+    font-size: 1.7rem;
+}
+
+nav ul {
+    display: flex;
+    /* margin-right: 60px; */
+    margin-top: 25px;
+}
+
+nav ul a{
+    list-style: none;
+    color: black;
+    margin-left: 80px;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+nav button{
+    margin-right: 70px;
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #CE7C02;
+    color: white;
+    font-size: 20px;
+    font-weight: 20px;
+    cursor: pointer;
+}
+
+
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+.box2{
+    width: 50%;
+}
+
+footer{
+    height: 400px;
+    background-color: #212121;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 140px;
+}
+
+.get-connected{
+    margin-top: 100px;
+}
+
+.get-connected h1{
+    margin-bottom: 15px;
+    color: white;
+}
+
+.get-connected p{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.social-media-icon i{
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.footer-contact{
+     margin-top: 100px;
+}
+
+.footer-contact h1{
+    color: white;
+    margin-bottom: 15px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.footer-contact p{
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+
+.footer-contact{
+    color: white;
+}
+
+.loaction{
+    display: flex;
+}
+
+.email{
+    display: flex;
+}
+
+.ph-number{
+    display: flex;
+}
+
+.subscribe{
+    margin-top: 100px;    
+}
+
+.subscribe h1{
+    color: white;
+    margin-bottom: 8px;
+}
+
+.subscribe p{
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* .subscribe-button{
+    display: flex;
+} */
+
+.subscribe-button button{
+    margin-top: 10px;
+    background-color: #CE7C02;
+    color: white;
+    height: 30px;
+    width: 140px;
+    border-style: none;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.subscribe-button input{
+    height: 30px;
+    width: 240px;
+} 
