@@ -45,19 +45,19 @@
                 <h1>Smash The Hunger</h1>
             </a>
             <ul>
-            <li style="margin-left:550px;"class="dropdown">
+            <li class="dropdown">
                     <a href="#" class="dropdown-btn">Registration</a>
                     <ul class="dropdown-menu" style="padding: 0px 0;">
-                        <a  style="font-size:16px;" href="donor_reg.php">
+                        <a   href="donor_reg.php">
                             <li>Donor Registration</li>
                         </a>
-                        <a style="font-size:16px;"href="Registration.php">
+                        <a href="Registration.php">
                             <li>Receiver Registration</li>
                         </a>
                     </ul>
                 </li>
             </ul>
-            <a href="login.php">
+            <a href="login.php" class="login">
                 <button type="button">Log In</button>
             </a>
         </nav>
@@ -142,7 +142,7 @@
             <div class="who-we-are">
                 <div class="who-we-are-content">
                     <!-- <img src="/asset/dot.png" alt="#" style="width: 450px; height: 300px;"> -->
-                    <img src="./asset/who-we-are.png" alt="" style="width: 400px; height: 400px; margin-left:100px;">
+                    <img src="./asset/who-we-are.png" alt="">
                     <div class="who-we-are-head-para">
                         <h1 style="color: black; margin-bottom: 25px;"> <span style="color: orange;">Who</span><span
                                 style="color: green;">We</span> <span style="color: green;">Are</span> </h1>
@@ -157,9 +157,9 @@
 
             <div class="what-we-do">
                 <div class="head-img">
-                    <h1 style="font-size: 2.4rem; display: flex; justify-content: center; align-items: center;">What We
+                    <h1 >What We
                         Do?</h1>
-                    <img src="./asset/what-we-do.png" alt="" style="width: 700px; margin-top: 50px;">
+                    <img src="./asset/what-we-do.png" alt="">
                 </div>
             </div>
 

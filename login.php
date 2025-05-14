@@ -71,17 +71,17 @@ if (isset($_POST['login'])) {
         <h1 style="margin-left: 60px;">Receiver Login</h1>
            <form method="POST">
            <div class="form-floating mb-3">
-              <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com" style="width: 50%;">
+              <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com" >
               <label for="floatingInput">Email address</label>
               </div>
              <div class="form-floating">
-              <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Password" style="width: 50%;">
+              <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Password" >
               <label for="floatingPassword">Password</label>
              </div>
              <div class="col-12">
-              <button type="submit" class="btn btn-primary" style="margin-top: 10px; width: 187px; background-color: #CE7C02; border-style: none;" name="login">Log In</button>
-              <button type="submit" class="btn btn-primary" style="margin-top: 10px; width: 187px; background-color: #CE7C02; border-style: none;"><a style="color: white;text-decoration: none;" href="Registration.php">Sign Up</a></button><br>
-              <a href="donor_login.php" style="color: black;text-decoration: none; margin-left: 100px;">Donor Login</a>
+              <button type="submit" class="btn btn-primary login_btn" style="background-color: #CE7C02;border-style:none;"  name="login">Log In</button>
+              <button type="submit" class="btn btn-primary login_btn"style="background-color: #CE7C02; border-style:none;"  href="Registration.php">Sign Up</a></button><br>
+              <a href="donor_login.php" id="donor_link" style="color: black;text-decoration: none; ">Donor Login</a>
               <a href="admin_login.php" style="color: black;text-decoration: none; ">/Admin Login</a>
             </div>
            </form>

@@ -79,9 +79,9 @@ if (isset($_POST['login'])) {
               <label for="floatingPassword">Password</label>
              </div>
              <div class="col-12">
-              <button type="submit" class="btn btn-primary" style="margin-top: 10px; width: 187px; background-color: #CE7C02; border-style: none;" name="login">Log In</button>
-              <button type="submit" class="btn btn-primary" style="margin-top: 10px; width: 187px; background-color: #CE7C02; border-style: none;"><a style="color: white;text-decoration: none;" href="donor_reg.php">Sign Up</a></button><br>
-              <a href="login.php" style="color: black;text-decoration: none; margin-left: 100px;">Receiver Login</a>
+              <button type="submit" class="btn btn-primary login_btn"style="background-color: #CE7C02; border-style:none;" name="login">Log In</button>
+              <button type="submit" class="btn btn-primary login_btn"style="background-color: #CE7C02; border-style:none;"><a style="color: white;text-decoration: none;" href="donor_reg.php">Sign Up</a></button><br>
+              <a href="login.php" sid="donor_link" style="color: black;text-decoration: none; ">Receiver Login</a>
               <a href="admin_login.php" style="color: black;text-decoration: none; ">/Admin Login</a>
             </div>
            </form>
